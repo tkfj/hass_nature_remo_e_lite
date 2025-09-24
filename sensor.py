@@ -49,9 +49,9 @@ class _BaseRemoESensor(SensorEntity):
     def device_info(self) -> DeviceInfo:
         return DeviceInfo(
             identifiers={(DOMAIN, self._device_id)},
-            name=f"Nature Remo E {self._device_id}",
+            name=f"Nature Remo E lite{self._device_id}",
             manufacturer="Nature",
-            model="Remo E",
+            model="Remo E lite",
         )
 
     async def async_added_to_hass(self) -> None:

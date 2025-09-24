@@ -1,13 +1,13 @@
 {
-    "domain": "nature_remo_e",
-    "name": "Nature Remo E (Power)",
+    "domain": "hass_nature_remo_e_lite",
+    "name": "Nature Remo E lite",
     "version": "0.1.0",
-    "documentation": "https://github.com/tkfj/nature_remo_e",
-    "issue_tracker": "https://github.com/tkfj/nature_remo_e/issues",
+    "documentation": "https://github.com/tkfj/hass_nature_remo_e_lite",
+    "issue_tracker": "https://github.com/tkfj/hass_nature_remo_e_lite/issues",
     "requirements": [],
     "codeowners": ["@tkfj"],
     "iot_class": "cloud_polling",
-    "loggers": ["custom_components.nature_remo_e"],
+    "loggers": ["custom_components.nature_remo_e_lite"],
     "integration_type": "hub",
     "config_flow": true
 }

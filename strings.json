@@ -2,8 +2,8 @@
     "config": {
         "step": {
             "user": {
-                "title": "Nature Remo E",
-                "description": "Enter your Nature Remo E credentials.",
+                "title": "Nature Remo E lite",
+                "description": "Enter your Nature Remo E lite credentials.",
                 "data": {
                     "access_token": "Access Token",
                     "device_id": "Device ID"

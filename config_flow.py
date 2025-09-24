@@ -18,7 +18,7 @@ from .const import (
 STEP_USER_DATA_SCHEMA = vol.Schema(
     {
         vol.Required(CONF_ACCESS_TOKEN): str,
-        vol.Required(CONF_DEVICE_ID, default="nature_remo_e_power"): str,
+        vol.Required(CONF_DEVICE_ID, default="nature_remo_e_lite"): str,
     }
 )
 
@@ -48,7 +48,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 await self.async_set_unique_id(unique_id)
                 self._abort_if_unique_id_configured()
                 return self.async_create_entry(
-                    title=f"Nature Remo E ({device_id})",
+                    title=f"Nature Remo E lite ({device_id})",
                     data={
                         CONF_ACCESS_TOKEN: token,
                         CONF_DEVICE_ID: device_id,

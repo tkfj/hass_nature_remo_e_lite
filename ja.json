@@ -2,8 +2,8 @@
     "config": {
         "step": {
             "user": {
-                "title": "Nature Remo E",
-                "description": "Nature Remo E の認証情報を入力してください。",
+                "title": "Nature Remo E lite",
+                "description": "Nature Remo E liteの認証情報を入力してください。",
                 "data": {
                     "access_token": "アクセストークン",
                     "device_id": "デバイスID"
