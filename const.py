@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-DOMAIN = "nature_remo_e_lite"
+DOMAIN = "hass_nature_remo_e_lite"
 
 CONF_ACCESS_TOKEN = "access_token"
 CONF_DEVICE_ID = "device_id"
